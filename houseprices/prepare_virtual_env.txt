@@ -1,0 +1,7 @@
+commands:
+"virtualenv"
+"virtualenv --python C:\Path\To\Python\python.exe venv"
+".\venv\Scripts\activate"
+
+"pip freeze > requirements.txt"
+"pip install -r requirements.txt"
